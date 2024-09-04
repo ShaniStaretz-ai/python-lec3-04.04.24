@@ -3,3 +3,4 @@
 
 in the lecture:
 1) recap last lecture and solved hw2.
+2) elif
