@@ -2,4 +2,4 @@
 
 
 in the lecture:
-1) recap last lecture and solved hw 2.
+1) recap last lecture and solved hw2.
