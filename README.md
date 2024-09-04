@@ -28,7 +28,7 @@ in the lecture:
 print( **f**"your name is {x}, your age is {y}.")
 ```
 
-options:
+### options:
 
 1) to print only 2 digits after the '.':
 
@@ -49,7 +49,12 @@ options:
     ```
    print(f"Name: {name1:^20} {age1}")
     ```
-   4) number to percentage: 0.5 to 50%
-      ```
-      print(f"{prec:%}")
-      ```
+    4) number to percentage: 0.5 to 50%:
+       ```
+       print(f"{prec:%}")
+       ```
+    5) percentage with 2 digits after the '.':
+
+    ```
+   print(f"percentage 2 digits after the .: {perc:.2%}")
+   ```

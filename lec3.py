@@ -16,6 +16,8 @@
 pi: float = 3.14159
 print(f"Pi: {pi}")
 print(f"Pi: {pi:.2f}")
+
+print(f"Pi: {pi:.2%}")
 name1: str = "Alice"
 #             12345
 age1: int = 30
@@ -27,3 +29,5 @@ print(f"Name: {name1:<20} {age1}")
 print(f"Name: {name1:>20} {age1}")
 print(f"Name: {name1:^20} {age1}")
 print(f"Name: {name2:^20} {age2}")
+perc=0.5
+print(f"percentage 2 digits after the .: {perc:.2%}")
