@@ -1,10 +1,9 @@
 volume: int = int(input("enter volume-level:\n"));
 
-
 match volume:
     case 0:
         print("mute");
-    case 1 | 2 :
+    case 1 | 2:
         print("very quiet")
     case 3:
         print("quiet")
@@ -18,7 +17,7 @@ match volume:
         print("loud");
     case 8:
         print("very loud");
-    case 9|10:
+    case 9 | 10:
         print("extremely loud");
     case _:
         print("volume")
