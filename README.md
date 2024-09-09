@@ -1,4 +1,4 @@
-# python-lec3-09.04.24
+# python-lec3-sep-04-24
 
 in the lecture:
 
@@ -20,6 +20,7 @@ in the lecture:
         2. without break-because the indentation
         3. case _: = default:
         4. merge cases: case 10 | 11| 12
+        5. case _ if 0 <= grade <= 40
 4) print format: https://docs.python.org/3/tutorial/inputoutput.html
 
 "your name is {x}, your age is {y}."
@@ -35,17 +36,17 @@ print( **f**"your name is {x}, your age is {y}.")
          print(f"Pi:{pi:.2f}")
 
 2) to align the string:
-    1) to the left <:
+    1) to the left <:add 20 spaces characters and align text to the left
     ```
         print(f"Name: {name1:<20} {age1}")
     ```
-    2) to the right >:
+    2) to the right >: add 20 spaces characters and align text to the right
 
     ```
     print(f"Name: {name1:>20} {age1}")
     ```
 
-    3) to the center ^:
+    3) to the center ^: add 20 spaces characters and align text to the center (between the spaces
     ```
    print(f"Name: {name1:^20} {age1}")
     ```
